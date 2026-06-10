@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ice Hockey — Prague's Barrel International Tournament</title>
+<meta name="description" content="International amateur ice hockey tournament in Prague. Hotel, transfers, full board and unlimited beer included. From €460 per person.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-sport="hockey">
+
+<!-- ═══ NAV ═══ -->
+<nav id="nav">
+  <div class="container">
+    <div class="inner">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-mark">🏒</div>
+        <span>Prague's Barrel</span>
+      </a>
+      <div class="nav-links">
+        <a href="#tournament" data-i18n="nav.tournament">Tournament</a>
+        <a href="#programme" data-i18n="nav.programme">Programme</a>
+        <a href="#price" data-i18n="nav.price">Price</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+        <a href="https://hockey.praguesbarrel.eu/registration/" target="_blank" rel="noopener" class="nav-cta" data-i18n="nav.register">Register</a>
+      </div>
+      <div class="lang-switcher">
+        <button data-lang="en">EN</button>
+        <button data-lang="cs">CS</button>
+        <button data-lang="de">DE</button>
+        <button data-lang="fr">FR</button>
+        <button data-lang="it">IT</button>
+      </div>
+      <button class="hamburger" aria-label="Menu" id="menuBtn"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-eyebrow">
+      <span class="dot"></span>
+      <span class="label" data-i18n="hero.eyebrow">Prague's Barrel · Prague, Czech Republic</span>
+    </div>
+    <h1 class="hero-title display"><span data-i18n="hero.title1">Ice Hockey</span><br><span class="accent" data-i18n="hero.title2">in Prague</span></h1>
+    <p class="hero-subtitle" data-i18n="hero.sub">International tournament for amateur & hobby teams</p>
+    <p class="hero-desc" data-i18n="hero.desc">Four unforgettable days of hockey, friendship and fun in Prague. Thrilling games on a full-size rink, unlimited Czech beer and an international atmosphere.</p>
+    <div class="hero-ctas">
+      <a href="https://hockey.praguesbarrel.eu/registration/" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="hero.cta1">🏒 Register your team</a>
+      <a href="#tournament" class="btn btn-ghost" data-i18n="hero.cta2">Learn more ↓</a>
+    </div>
+    <div class="date-pills">
+      <span class="date-pill">📅 23–26/4</span>
+      <span class="date-pill">📅 21–24/5</span>
+      <span class="date-pill">📅 3–6/9</span>
+      <span class="date-pill">📅 5–8/11</span>
+      <span class="date-pill">📅 19–22/11 2026</span>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="number">5×</div><div class="text" data-i18n="stats.dates">Tournaments in 2026</div></div>
+      <div class="hero-stat"><div class="number">15–20</div><div class="text" data-i18n="stats.roster">Players per roster</div></div>
+      <div class="hero-stat"><div class="number">4</div><div class="text" data-i18n="stats.days">Days in Prague</div></div>
+      <div class="hero-stat"><div class="number">€460</div><div class="text" data-i18n="stats.price">Starting price / person</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ DATES BANNER ═══ -->
+<div id="dates-banner">
+  <div class="container">
+    <div class="dates-inner">
+      <div class="dates-label" data-i18n="banner.label">📅 2026 dates</div>
+      <div class="date-block"><div class="date-num">23–26</div><div class="date-month" data-i18n="banner.april">April 2026</div></div>
+      <div class="date-block"><div class="date-num">21–24</div><div class="date-month" data-i18n="banner.may">May 2026</div></div>
+      <div class="date-block"><div class="date-num">3–6</div><div class="date-month" data-i18n="banner.september">September 2026</div></div>
+      <div class="date-block"><div class="date-num">5–8</div><div class="date-month" data-i18n="banner.november">November 2026</div></div>
+      <div class="date-block"><div class="date-num">19–22</div><div class="date-month" data-i18n="banner.november">November 2026</div></div>
+      <div class="dates-cta"><a href="https://hockey.praguesbarrel.eu/registration/" target="_blank" rel="noopener" data-i18n="banner.cta">Pick your date →</a></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ WHY ═══ -->
+<section id="tournament" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="label" data-i18n="why.label">Why Prague's Barrel</p>
+      <h2 data-i18n="why.title">Hockey the way<br>it's meant to be enjoyed</h2>
+      <p data-i18n="why.desc">We take care of every detail — accommodation, transfers, meals, entertainment — so your team focuses on hockey, beer and memories.</p>
+    </div>
+    <div class="why-grid reveal reveal-delay-1">
+      <div class="why-item"><div class="why-icon">🥅</div><h3 data-i18n="why.1.title">For amateurs & hobby players</h3><p data-i18n="why.1.desc">Friendly tournament for hobby and amateur teams. Balanced groups so every game is fun to play.</p></div>
+      <div class="why-item"><div class="why-icon">🏟️</div><h3 data-i18n="why.2.title">Full-size rink</h3><p data-i18n="why.2.desc">Proper indoor ice arena in Prague, real referees, full match experience for your team.</p></div>
+      <div class="why-item"><div class="why-icon">🏙️</div><h3 data-i18n="why.3.title">Prague at your feet</h3><p data-i18n="why.3.desc">Play by day, explore Europe's most beautiful city by night. Easy to reach from anywhere.</p></div>
+      <div class="why-item"><div class="why-icon">🍺</div><h3 data-i18n="why.4.title">Unlimited open-tap beer</h3><p data-i18n="why.4.desc">Free Czech beer at the welcome dinner, at the arena, on the boat cruise and at the final ceremony.</p></div>
+      <div class="why-item"><div class="why-icon">⭐</div><h3 data-i18n="why.5.title">30 years of experience</h3><p data-i18n="why.5.desc">The same organisers as our legendary football tournament — trusted by teams from 40 countries.</p></div>
+    </div>
+
+    <div class="facts-strip reveal reveal-delay-2" style="margin-top:44px">
+      <div class="fact"><div class="fact-num">15–20</div><div class="fact-text" data-i18n="fact.roster">Recommended roster</div></div>
+      <div class="fact"><div class="fact-num">12</div><div class="fact-text" data-i18n="fact.min">Minimum players</div></div>
+      <div class="fact"><div class="fact-num">4</div><div class="fact-text" data-i18n="fact.days">Days of hockey & fun</div></div>
+      <div class="fact"><div class="fact-num">5</div><div class="fact-text" data-i18n="fact.dates">Dates through 2026</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PROGRAMME ═══ -->
+<section id="programme" class="section section--alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="label" data-i18n="prog.label">Schedule</p>
+      <h2 data-i18n="prog.title">Four days in Prague</h2>
+      <p data-i18n="prog.desc">Every moment is planned — nothing is mandatory. You decide how much you play, explore or celebrate.</p>
+    </div>
+    <div class="timeline reveal reveal-delay-1">
+      <div class="timeline-day">
+        <div class="day-label" data-i18n="prog.d1.label">THU</div>
+        <div class="day-name" data-i18n="prog.d1.name">Arrival day</div>
+        <div class="day-event event-highlight"><span class="time">14:00</span><span data-i18n="prog.d1.e1">Airport pickup & hotel check-in</span></div>
+        <div class="day-event"><span class="time">18:00</span><span data-i18n="prog.d1.e2">Welcome dinner at a traditional Czech restaurant</span></div>
+        <div class="day-event event-highlight"><span class="time">21:00</span><span data-i18n="prog.d1.e3">🍺 Free evening — explore Prague!</span></div>
+      </div>
+      <div class="timeline-day">
+        <div class="day-label" data-i18n="prog.d2.label">FRI</div>
+        <div class="day-name" data-i18n="prog.d2.name">Game day 1</div>
+        <div class="day-event"><span class="time">7:00</span><span data-i18n="prog.d2.e1">Breakfast at the hotel</span></div>
+        <div class="day-event event-highlight"><span class="time">9:00</span><span data-i18n="prog.d2.e2">🏒 Group stage games at the arena</span></div>
+        <div class="day-event"><span class="time">13:00</span><span data-i18n="prog.d2.e3">Lunch at the arena</span></div>
+        <div class="day-event event-highlight"><span class="time">19:30</span><span data-i18n="prog.d2.e4">🛥️ Dinner on a Vltava boat cruise</span></div>
+      </div>
+      <div class="timeline-day">
+        <div class="day-label" data-i18n="prog.d3.label">SAT</div>
+        <div class="day-name" data-i18n="prog.d3.name">Game day 2</div>
+        <div class="day-event"><span class="time">7:00</span><span data-i18n="prog.d2.e1">Breakfast at the hotel</span></div>
+        <div class="day-event event-highlight"><span class="time">9:00</span><span data-i18n="prog.d3.e1">🏒 Play-offs & finals</span></div>
+        <div class="day-event"><span class="time">16:00</span><span data-i18n="prog.d3.e2">Free afternoon</span></div>
+        <div class="day-event event-highlight"><span class="time">19:30</span><span data-i18n="prog.d3.e3">🏅 Final ceremony, awards & party</span></div>
+      </div>
+      <div class="timeline-day">
+        <div class="day-label" data-i18n="prog.d4.label">SUN</div>
+        <div class="day-name" data-i18n="prog.d4.name">Departure</div>
+        <div class="day-event"><span class="time">7:00</span><span data-i18n="prog.d4.e1">Last breakfast at the hotel</span></div>
+        <div class="day-event"><span class="time">11:00</span><span data-i18n="prog.d4.e2">Check-out & transfer back</span></div>
+        <div class="day-event event-highlight"><span class="time">+1</span><span data-i18n="prog.d4.e3">🌆 Optional extra nights available</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ INCLUDED ═══ -->
+<section id="includes" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="label" data-i18n="inc.label">Package includes</p>
+      <h2 data-i18n="inc.title">Everything. Seriously, everything.</h2>
+      <p data-i18n="inc.desc">One price covers the entire experience — you just need to get yourselves (and your gear) to Prague.</p>
+    </div>
+    <div class="includes-grid reveal reveal-delay-1">
+      <div class="include-card highlight-card"><div class="include-icon">🍺</div><div><h3 data-i18n="inc.1.title">Unlimited open-tap beer</h3><p data-i18n="inc.1.desc">Free Czech beer at all official events — welcome dinner, arena, boat cruise, final party.</p></div></div>
+      <div class="include-card"><div class="include-icon">🏨</div><div><h3 data-i18n="inc.2.title">3 nights at a hotel</h3><p data-i18n="inc.2.desc">3–5★ hotels in Prague city centre or nearby. You choose your tier.</p></div></div>
+      <div class="include-card"><div class="include-icon">🍽️</div><div><h3 data-i18n="inc.3.title">Full board</h3><p data-i18n="inc.3.desc">Breakfast at the hotel, lunch at the arena, common dinners at a restaurant and on the boat.</p></div></div>
+      <div class="include-card"><div class="include-icon">🚌</div><div><h3 data-i18n="inc.4.title">All transfers</h3><p data-i18n="inc.4.desc">Airport ↔ hotel and hotel ↔ arena shuttles for the whole group.</p></div></div>
+      <div class="include-card"><div class="include-icon">🏒</div><div><h3 data-i18n="inc.5.title">Tournament entry</h3><p data-i18n="inc.5.desc">Ice time, referees and organisation throughout the whole tournament.</p></div></div>
+      <div class="include-card"><div class="include-icon">👩‍✈️</div><div><h3 data-i18n="inc.6.title">Personal guide</h3><p data-i18n="inc.6.desc">A dedicated hostess for groups of 10+ — your "fairy beer mother" for the whole stay.</p></div></div>
+      <div class="include-card"><div class="include-icon">🎉</div><div><h3 data-i18n="inc.7.title">Evening entertainment</h3><p data-i18n="inc.7.desc">Vltava boat cruise, final ceremony with music and an after-party.</p></div></div>
+      <div class="include-card"><div class="include-icon">🏅</div><div><h3 data-i18n="inc.8.title">A prize for every team</h3><p data-i18n="inc.8.desc">Even last place gets a trophy — plus a souvenir for every participant.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PRICE ═══ -->
+<section id="price" class="section section--alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="label" data-i18n="price.label">Pricing</p>
+      <h2 data-i18n="price.title">One price, full experience</h2>
+      <p data-i18n="price.desc">The price per person depends only on the hotel you choose (3–5★, single/double/triple rooms). Everything else is included.</p>
+    </div>
+    <div class="price-intro reveal">
+      <div class="big-price">€460 – €820</div>
+      <p data-i18n="price.deposit">Package price per person · 3 nights · full board · all events · open-tap beer<br><strong style="color:var(--gold)">€800 deposit</strong> confirms your team's registration (kept as a security deposit and refunded after the tournament).</p>
+    </div>
+    <div class="price-cards reveal reveal-delay-1">
+      <div class="price-card">
+        <div class="price-card-head">
+          <div class="hotel-stars">★★★</div>
+          <div class="hotel-name" data-i18n="price.t1.name">Budget hotels</div>
+          <div class="hotel-type" data-i18n="price.t1.type">City centre & nearby · 3-star</div>
+        </div>
+        <div class="price-card-body">
+          <p class="price-note" style="margin-top:0" data-i18n="price.t1.note">The most affordable way to join — comfortable, well-located hotels close to the shuttle hop-on spots. Packages start at €460 per person.</p>
+        </div>
+      </div>
+      <div class="price-card featured">
+        <div class="badge" data-i18n="price.popular">Most popular</div>
+        <div class="price-card-head">
+          <div class="hotel-stars">★★★★</div>
+          <div class="hotel-name" data-i18n="price.t2.name">4-star hotels</div>
+          <div class="hotel-type" data-i18n="price.t2.type">City centre · Superior comfort</div>
+        </div>
+        <div class="price-card-body">
+          <p class="price-note" style="margin-top:0" data-i18n="price.t2.note">Superior comfort right in the heart of Prague — the choice of most teams. Ask your coordinator for the current price list.</p>
+        </div>
+      </div>
+      <div class="price-card">
+        <div class="price-card-head">
+          <div class="hotel-stars">★★★★★</div>
+          <div class="hotel-name" data-i18n="price.t3.name">Premium hotels</div>
+          <div class="hotel-type" data-i18n="price.t3.type">City centre · Luxury experience</div>
+        </div>
+        <div class="price-card-body">
+          <p class="price-note" style="margin-top:0" data-i18n="price.t3.note">Premium properties in central Prague for those who want the full luxury experience — up to €820 per person.</p>
+        </div>
+      </div>
+    </div>
+    <div class="extras-box reveal reveal-delay-2">
+      <h3 data-i18n="price.extras.title">Good to know</h3>
+      <div class="extras-grid">
+        <div class="extra-item" data-i18n="price.x1">🏒 Recommended roster: <strong>15–20 players</strong> (minimum 12)</div>
+        <div class="extra-item" data-i18n="price.x2">💶 Deposit to confirm registration — <strong>€800</strong></div>
+        <div class="extra-item" data-i18n="price.x3">🌆 Extra nights — <strong>available on request</strong></div>
+        <div class="extra-item" data-i18n="price.x4">⚠️ Health insurance is <strong>not</strong> included</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FAQ ═══ -->
+<section id="faq" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="label">FAQ</p>
+      <h2 data-i18n="faq.title">Everything you need to know</h2>
+      <p data-i18n="faq.desc">Can't find your answer? Write to us — your coordinator replies within 24 hours.</p>
+    </div>
+    <div class="faq-list reveal reveal-delay-1">
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.1.q">Is there really free beer everywhere?</span><span class="faq-arrow">▾</span></button>
+        <div class="faq-a" data-i18n="faq.1.a">Yes! At all official events — open-tap at the welcome dinner, free beer at the arena, on the boat cruise and at the final ceremony. We serve different kinds of Czech beer so you can taste various brands.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.2.q">How many players should we bring?</span><span class="faq-arrow">▾</span></button>
+        <div class="faq-a" data-i18n="faq.2.a">We recommend a roster of 15–20 players; the minimum team size is 12. Goalies are essential — if you have trouble filling the net, talk to your coordinator.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.3.q">What level are the teams?</span><span class="faq-arrow">▾</span></button>
+        <div class="faq-a" data-i18n="faq.3.a">This is a tournament for amateur and hobby teams. We do our best to balance the groups so that every team gets competitive, enjoyable games — no semi-pro squads hunting trophies.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.4.q">Can we arrive early or stay longer?</span><span class="faq-arrow">▾</span></button>
+        <div class="faq-a" data-i18n="faq.4.a">Absolutely. Ask your coordinator to extend your stay. The price of each extra night includes accommodation, breakfast, crew assistance and organisation of optional events at cost price.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.5.q">How do we confirm our registration?</span><span class="faq-arrow">▾</span></button>
+        <div class="faq-a" data-i18n="faq.5.a">After registering, you confirm your team's spot with a deposit of €800. It is kept as a security deposit during the tournament and returned to your account right after it ends.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span data-i18n="faq.6.q">Can we use our own accommodation?</span><span class="faq-arrow">▾</span></button>
+        <div class="faq-a" data-i18n="faq.6.a">Yes — in that case you pay a lower price covering meals, transport and tournament entry only. Make sure your accommodation is close to our hop-on points so you can use the shuttle service.</div>
+      </div>
+    </div>
+
+    <div class="contact-cta reveal reveal-delay-2">
+      <div>
+        <h2 data-i18n="cta.title">Ready to bring your team to <span>Prague?</span></h2>
+        <p class="cta-details" data-i18n="cta.desc">Register now or write to us — we reply within 24 hours.</p>
+      </div>
+      <div class="cta-buttons">
+        <a href="https://hockey.praguesbarrel.eu/registration/" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="cta.btn1">🏒 Register now</a>
+        <a href="mailto:hockey@praguesbarrel.eu" class="btn btn-ghost" data-i18n="cta.btn2">✉ Email us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo-name">Prague's Barrel</div>
+        <p data-i18n="foot.brand">International ice hockey tournament for amateur teams in Prague. We make the magic happen — you just play, drink beer and enjoy Prague.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/PraguesBarrelTournaments" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.instagram.com/praguesbarrel/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://t.me/s/praguesbarrelhockey" target="_blank" rel="noopener">Telegram</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="foot.tournament">Tournament</h4>
+        <ul>
+          <li><a href="#tournament" data-i18n="foot.about">About</a></li>
+          <li><a href="#programme" data-i18n="nav.programme">Programme</a></li>
+          <li><a href="https://hockey.praguesbarrel.eu/tournament/results/" target="_blank" rel="noopener" data-i18n="foot.results">Results archive</a></li>
+          <li><a href="https://hockey.praguesbarrel.eu/tournament/rink/" target="_blank" rel="noopener" data-i18n="foot.rink">Ice arena</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="foot.registration">Registration</h4>
+        <ul>
+          <li><a href="#price" data-i18n="nav.price">Price</a></li>
+          <li><a href="https://hockey.praguesbarrel.eu/registration/" target="_blank" rel="noopener" data-i18n="nav.register">Register</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="index.html#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="foot.other">Other tournaments</h4>
+        <ul>
+          <li><a href="football.html">⚽ <span data-i18n="foot.football">Football</span></a></li>
+          <li><a href="bowling.html">🎳 <span data-i18n="foot.bowling">Bowling</span></a></li>
+          <li><a href="index.html" data-i18n="foot.home">All tournaments</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="foot.copy">© 2026 Prague's Barrel s.r.o. · Táborská 4, 140 00 Praha 4 · All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="football.html">⚽</a><a href="bowling.html">🎳</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+const I18N = {
+en: {
+  "meta.title":"Ice Hockey — Prague's Barrel International Tournament",
+  "meta.desc":"International amateur ice hockey tournament in Prague. Hotel, transfers, full board and unlimited beer included. From €460 per person.",
+  "nav.tournament":"Tournament","nav.programme":"Programme","nav.price":"Price","nav.faq":"FAQ","nav.contact":"Contact","nav.register":"Register",
+  "hero.eyebrow":"Prague's Barrel · Prague, Czech Republic",
+  "hero.title1":"Ice Hockey","hero.title2":"in Prague",
+  "hero.sub":"International tournament for amateur & hobby teams",
+  "hero.desc":"Four unforgettable days of hockey, friendship and fun in Prague. Thrilling games on a full-size rink, unlimited Czech beer and an international atmosphere.",
+  "hero.cta1":"🏒 Register your team","hero.cta2":"Learn more ↓",
+  "stats.dates":"Tournaments in 2026","stats.roster":"Players per roster","stats.days":"Days in Prague","stats.price":"Starting price / person",
+  "banner.label":"📅 2026 dates","banner.april":"April 2026","banner.may":"May 2026","banner.september":"September 2026","banner.november":"November 2026","banner.cta":"Pick your date →",
+  "why.label":"Why Prague's Barrel","why.title":"Hockey the way<br>it's meant to be enjoyed",
+  "why.desc":"We take care of every detail — accommodation, transfers, meals, entertainment — so your team focuses on hockey, beer and memories.",
+  "why.1.title":"For amateurs & hobby players","why.1.desc":"Friendly tournament for hobby and amateur teams. Balanced groups so every game is fun to play.",
+  "why.2.title":"Full-size rink","why.2.desc":"Proper indoor ice arena in Prague, real referees, full match experience for your team.",
+  "why.3.title":"Prague at your feet","why.3.desc":"Play by day, explore Europe's most beautiful city by night. Easy to reach from anywhere.",
+  "why.4.title":"Unlimited open-tap beer","why.4.desc":"Free Czech beer at the welcome dinner, at the arena, on the boat cruise and at the final ceremony.",
+  "why.5.title":"30 years of experience","why.5.desc":"The same organisers as our legendary football tournament — trusted by teams from 40 countries.",
+  "fact.roster":"Recommended roster","fact.min":"Minimum players","fact.days":"Days of hockey & fun","fact.dates":"Dates through 2026",
+  "prog.label":"Schedule","prog.title":"Four days in Prague",
+  "prog.desc":"Every moment is planned — nothing is mandatory. You decide how much you play, explore or celebrate.",
+  "prog.d1.label":"THU","prog.d1.name":"Arrival day",
+  "prog.d1.e1":"Airport pickup & hotel check-in","prog.d1.e2":"Welcome dinner at a traditional Czech restaurant","prog.d1.e3":"🍺 Free evening — explore Prague!",
+  "prog.d2.label":"FRI","prog.d2.name":"Game day 1",
+  "prog.d2.e1":"Breakfast at the hotel","prog.d2.e2":"🏒 Group stage games at the arena","prog.d2.e3":"Lunch at the arena","prog.d2.e4":"🛥️ Dinner on a Vltava boat cruise",
+  "prog.d3.label":"SAT","prog.d3.name":"Game day 2",
+  "prog.d3.e1":"🏒 Play-offs & finals","prog.d3.e2":"Free afternoon","prog.d3.e3":"🏅 Final ceremony, awards & party",
+  "prog.d4.label":"SUN","prog.d4.name":"Departure",
+  "prog.d4.e1":"Last breakfast at the hotel","prog.d4.e2":"Check-out & transfer back","prog.d4.e3":"🌆 Optional extra nights available",
+  "inc.label":"Package includes","inc.title":"Everything. Seriously, everything.",
+  "inc.desc":"One price covers the entire experience — you just need to get yourselves (and your gear) to Prague.",
+  "inc.1.title":"Unlimited open-tap beer","inc.1.desc":"Free Czech beer at all official events — welcome dinner, arena, boat cruise, final party.",
+  "inc.2.title":"3 nights at a hotel","inc.2.desc":"3–5★ hotels in Prague city centre or nearby. You choose your tier.",
+  "inc.3.title":"Full board","inc.3.desc":"Breakfast at the hotel, lunch at the arena, common dinners at a restaurant and on the boat.",
+  "inc.4.title":"All transfers","inc.4.desc":"Airport ↔ hotel and hotel ↔ arena shuttles for the whole group.",
+  "inc.5.title":"Tournament entry","inc.5.desc":"Ice time, referees and organisation throughout the whole tournament.",
+  "inc.6.title":"Personal guide","inc.6.desc":"A dedicated hostess for groups of 10+ — your \"fairy beer mother\" for the whole stay.",
+  "inc.7.title":"Evening entertainment","inc.7.desc":"Vltava boat cruise, final ceremony with music and an after-party.",
+  "inc.8.title":"A prize for every team","inc.8.desc":"Even last place gets a trophy — plus a souvenir for every participant.",
+  "price.label":"Pricing","price.title":"One price, full experience",
+  "price.desc":"The price per person depends only on the hotel you choose (3–5★, single/double/triple rooms). Everything else is included.",
+  "price.deposit":"Package price per person · 3 nights · full board · all events · open-tap beer<br><strong style=\"color:var(--gold)\">€800 deposit</strong> confirms your team's registration (kept as a security deposit and refunded after the tournament).",
+  "price.popular":"Most popular",
+  "price.t1.name":"Budget hotels","price.t1.type":"City centre & nearby · 3-star",
+  "price.t1.note":"The most affordable way to join — comfortable, well-located hotels close to the shuttle hop-on spots. Packages start at €460 per person.",
+  "price.t2.name":"4-star hotels","price.t2.type":"City centre · Superior comfort",
+  "price.t2.note":"Superior comfort right in the heart of Prague — the choice of most teams. Ask your coordinator for the current price list.",
+  "price.t3.name":"Premium hotels","price.t3.type":"City centre · Luxury experience",
+  "price.t3.note":"Premium properties in central Prague for those who want the full luxury experience — up to €820 per person.",
+  "price.extras.title":"Good to know",
+  "price.x1":"🏒 Recommended roster: <strong>15–20 players</strong> (minimum 12)",
+  "price.x2":"💶 Deposit to confirm registration — <strong>€800</strong>",
+  "price.x3":"🌆 Extra nights — <strong>available on request</strong>",
+  "price.x4":"⚠️ Health insurance is <strong>not</strong> included",
+  "faq.title":"Everything you need to know","faq.desc":"Can't find your answer? Write to us — your coordinator replies within 24 hours.",
+  "faq.1.q":"Is there really free beer everywhere?",
+  "faq.1.a":"Yes! At all official events — open-tap at the welcome dinner, free beer at the arena, on the boat cruise and at the final ceremony. We serve different kinds of Czech beer so you can taste various brands.",
+  "faq.2.q":"How many players should we bring?",
+  "faq.2.a":"We recommend a roster of 15–20 players; the minimum team size is 12. Goalies are essential — if you have trouble filling the net, talk to your coordinator.",
+  "faq.3.q":"What level are the teams?",
+  "faq.3.a":"This is a tournament for amateur and hobby teams. We do our best to balance the groups so that every team gets competitive, enjoyable games — no semi-pro squads hunting trophies.",
+  "faq.4.q":"Can we arrive early or stay longer?",
+  "faq.4.a":"Absolutely. Ask your coordinator to extend your stay. The price of each extra night includes accommodation, breakfast, crew assistance and organisation of optional events at cost price.",
+  "faq.5.q":"How do we confirm our registration?",
+  "faq.5.a":"After registering, you confirm your team's spot with a deposit of €800. It is kept as a security deposit during the tournament and returned to your account right after it ends.",
+  "faq.6.q":"Can we use our own accommodation?",
+  "faq.6.a":"Yes — in that case you pay a lower price covering meals, transport and tournament entry only. Make sure your accommodation is close to our hop-on points so you can use the shuttle service.",
+  "cta.title":"Ready to bring your team to <span>Prague?</span>","cta.desc":"Register now or write to us — we reply within 24 hours.",
+  "cta.btn1":"🏒 Register now","cta.btn2":"✉ Email us",
+  "foot.brand":"International ice hockey tournament for amateur teams in Prague. We make the magic happen — you just play, drink beer and enjoy Prague.",
+  "foot.tournament":"Tournament","foot.about":"About","foot.results":"Results archive","foot.rink":"Ice arena",
+  "foot.registration":"Registration","foot.other":"Other tournaments","foot.football":"Football","foot.bowling":"Bowling","foot.home":"All tournaments",
+  "foot.copy":"© 2026 Prague's Barrel s.r.o. · Táborská 4, 140 00 Praha 4 · All rights reserved."
+},
+cs: {
+  "meta.title":"Lední hokej — mezinárodní turnaj Prague's Barrel",
+  "meta.desc":"Mezinárodní amatérský hokejový turnaj v Praze. Hotel, doprava, plná penze a neomezené pivo v ceně. Od 460 € za osobu.",
+  "nav.tournament":"Turnaj","nav.programme":"Program","nav.price":"Cena","nav.faq":"FAQ","nav.contact":"Kontakt","nav.register":"Registrace",
+  "hero.eyebrow":"Prague's Barrel · Praha, Česká republika",
+  "hero.title1":"Lední hokej","hero.title2":"v Praze",
+  "hero.sub":"Mezinárodní turnaj pro amatérské a hobby týmy",
+  "hero.desc":"Čtyři nezapomenutelné dny hokeje, přátelství a zábavy v Praze. Napínavé zápasy na velkém kluzišti, neomezené české pivo a mezinárodní atmosféra.",
+  "hero.cta1":"🏒 Registrovat tým","hero.cta2":"Zjistit více ↓",
+  "stats.dates":"Turnajů v roce 2026","stats.roster":"Hráčů na soupisce","stats.days":"Dny v Praze","stats.price":"Cena od / osoba",
+  "banner.label":"📅 Termíny 2026","banner.april":"duben 2026","banner.may":"květen 2026","banner.september":"září 2026","banner.november":"listopad 2026","banner.cta":"Vyberte termín →",
+  "why.label":"Proč Prague's Barrel","why.title":"Hokej tak,<br>jak si ho máte užít",
+  "why.desc":"Postaráme se o každý detail — ubytování, dopravu, jídlo i zábavu — aby se váš tým soustředil na hokej, pivo a vzpomínky.",
+  "why.1.title":"Pro amatéry a hobby hráče","why.1.desc":"Přátelský turnaj pro hobby a amatérské týmy. Vyrovnané skupiny, aby každý zápas bavil.",
+  "why.2.title":"Velké kluziště","why.2.desc":"Krytá hokejová hala v Praze, opravdoví rozhodčí, plnohodnotný zápasový zážitek pro váš tým.",
+  "why.3.title":"Praha u nohou","why.3.desc":"Ve dne hrajete, večer objevujete nejkrásnější město Evropy. Snadno dostupné odkudkoli.",
+  "why.4.title":"Neomezené pivo na čepu","why.4.desc":"České pivo zdarma na uvítací večeři, na zimáku, na lodi i na závěrečném ceremoniálu.",
+  "why.5.title":"30 let zkušeností","why.5.desc":"Stejní pořadatelé jako u našeho legendárního fotbalového turnaje — důvěřují nám týmy ze 40 zemí.",
+  "fact.roster":"Doporučená soupiska","fact.min":"Minimum hráčů","fact.days":"Dny hokeje a zábavy","fact.dates":"Termínů v roce 2026",
+  "prog.label":"Harmonogram","prog.title":"Čtyři dny v Praze",
+  "prog.desc":"Každá chvíle je naplánovaná — nic není povinné. Sami rozhodnete, kolik budete hrát, objevovat nebo slavit.",
+  "prog.d1.label":"ČT","prog.d1.name":"Den příjezdu",
+  "prog.d1.e1":"Vyzvednutí na letišti a check-in v hotelu","prog.d1.e2":"Uvítací večeře v tradiční české restauraci","prog.d1.e3":"🍺 Volný večer — objevujte Prahu!",
+  "prog.d2.label":"PÁ","prog.d2.name":"1. hrací den",
+  "prog.d2.e1":"Snídaně v hotelu","prog.d2.e2":"🏒 Zápasy ve skupinách na zimáku","prog.d2.e3":"Oběd na zimáku","prog.d2.e4":"🛥️ Večeře na lodi na Vltavě",
+  "prog.d3.label":"SO","prog.d3.name":"2. hrací den",
+  "prog.d3.e1":"🏒 Play-off a finále","prog.d3.e2":"Volné odpoledne","prog.d3.e3":"🏅 Závěrečný ceremoniál, ceny a párty",
+  "prog.d4.label":"NE","prog.d4.name":"Odjezd",
+  "prog.d4.e1":"Poslední snídaně v hotelu","prog.d4.e2":"Check-out a transfer zpět","prog.d4.e3":"🌆 Možnost prodloužení pobytu",
+  "inc.label":"Balíček obsahuje","inc.title":"Všechno. Opravdu všechno.",
+  "inc.desc":"Jedna cena pokrývá celý zážitek — stačí dorazit (i s výstrojí) do Prahy.",
+  "inc.1.title":"Neomezené pivo na čepu","inc.1.desc":"České pivo zdarma na všech oficiálních akcích — uvítací večeře, zimák, plavba lodí, závěrečná párty.",
+  "inc.2.title":"3 noci v hotelu","inc.2.desc":"Hotely 3–5★ v centru Prahy nebo poblíž. Úroveň si vyberete sami.",
+  "inc.3.title":"Plná penze","inc.3.desc":"Snídaně v hotelu, oběd na zimáku, společné večeře v restauraci a na lodi.",
+  "inc.4.title":"Veškerá doprava","inc.4.desc":"Letiště ↔ hotel a kyvadlová doprava hotel ↔ zimák pro celou skupinu.",
+  "inc.5.title":"Startovné","inc.5.desc":"Ledová plocha, rozhodčí a organizace po celou dobu turnaje.",
+  "inc.6.title":"Osobní průvodkyně","inc.6.desc":"Hosteska pro skupiny od 10 osob — vaše „pivní víla“ po celý pobyt.",
+  "inc.7.title":"Večerní zábava","inc.7.desc":"Plavba po Vltavě, závěrečný ceremoniál s hudbou a after-párty.",
+  "inc.8.title":"Cena pro každý tým","inc.8.desc":"I poslední tým dostane trofej — a každý účastník suvenýr.",
+  "price.label":"Ceník","price.title":"Jedna cena, kompletní zážitek",
+  "price.desc":"Cena za osobu závisí jen na zvoleném hotelu (3–5★, jedno/dvou/třílůžkové pokoje). Vše ostatní je v ceně.",
+  "price.deposit":"Cena balíčku za osobu · 3 noci · plná penze · všechny akce · pivo na čepu<br><strong style=\"color:var(--gold)\">Záloha 800 €</strong> potvrzuje registraci týmu (během turnaje slouží jako kauce a po skončení se vrací).",
+  "price.popular":"Nejoblíbenější",
+  "price.t1.name":"Ekonomické hotely","price.t1.type":"Centrum a okolí · 3 hvězdy",
+  "price.t1.note":"Nejdostupnější varianta — pohodlné hotely blízko nástupních míst kyvadlové dopravy. Balíčky začínají na 460 € za osobu.",
+  "price.t2.name":"4hvězdičkové hotely","price.t2.type":"Centrum · Vyšší komfort",
+  "price.t2.note":"Nadstandardní komfort přímo v srdci Prahy — volba většiny týmů. O aktuální ceník požádejte koordinátorku.",
+  "price.t3.name":"Prémiové hotely","price.t3.type":"Centrum · Luxusní zážitek",
+  "price.t3.note":"Prémiové hotely v centru Prahy pro ty, kdo chtějí zažít luxus naplno — až 820 € za osobu.",
+  "price.extras.title":"Dobré vědět",
+  "price.x1":"🏒 Doporučená soupiska: <strong>15–20 hráčů</strong> (minimálně 12)",
+  "price.x2":"💶 Záloha pro potvrzení registrace — <strong>800 €</strong>",
+  "price.x3":"🌆 Extra noci — <strong>na vyžádání</strong>",
+  "price.x4":"⚠️ Zdravotní pojištění <strong>není</strong> v ceně",
+  "faq.title":"Vše, co potřebujete vědět","faq.desc":"Nenašli jste odpověď? Napište nám — koordinátorka odpoví do 24 hodin.",
+  "faq.1.q":"Je opravdu všude pivo zdarma?",
+  "faq.1.a":"Ano! Na všech oficiálních akcích — pivo na čepu na uvítací večeři, zdarma na zimáku, na lodi i na závěrečném ceremoniálu. Čepujeme různé druhy českého piva, ať ochutnáte víc značek.",
+  "faq.2.q":"Kolik hráčů máme vzít?",
+  "faq.2.a":"Doporučujeme soupisku 15–20 hráčů; minimální velikost týmu je 12. Brankáři jsou klíčoví — pokud máte problém obsadit branku, ozvěte se koordinátorce.",
+  "faq.3.q":"Jaká je úroveň týmů?",
+  "faq.3.a":"Jde o turnaj pro amatérské a hobby týmy. Skupiny se snažíme co nejlépe vyrovnat, aby každý tým zažil vyrovnané a zábavné zápasy — žádné poloprofesionální celky lovící trofeje.",
+  "faq.4.q":"Můžeme přijet dříve nebo zůstat déle?",
+  "faq.4.a":"Samozřejmě. Požádejte koordinátorku o prodloužení pobytu. Cena každé extra noci zahrnuje ubytování, snídani, asistenci týmu a organizaci volitelných akcí za nákladové ceny.",
+  "faq.5.q":"Jak potvrdíme registraci?",
+  "faq.5.a":"Po registraci potvrdíte místo svého týmu zálohou 800 €. Během turnaje slouží jako kauce a hned po jeho skončení ji vracíme na váš účet.",
+  "faq.6.q":"Můžeme mít vlastní ubytování?",
+  "faq.6.a":"Ano — v tom případě platíte nižší cenu pokrývající pouze jídlo, dopravu a startovné. Ujistěte se, že je vaše ubytování blízko našich nástupních míst, abyste mohli využívat kyvadlovou dopravu.",
+  "cta.title":"Připraveni přivézt svůj tým do <span>Prahy?</span>","cta.desc":"Zaregistrujte se, nebo nám napište — odpovídáme do 24 hodin.",
+  "cta.btn1":"🏒 Registrovat","cta.btn2":"✉ Napište nám",
+  "foot.brand":"Mezinárodní hokejový turnaj pro amatérské týmy v Praze. My zařídíme kouzla — vy jen hrajete, pijete pivo a užíváte si Prahu.",
+  "foot.tournament":"Turnaj","foot.about":"O turnaji","foot.results":"Archiv výsledků","foot.rink":"Hokejová hala",
+  "foot.registration":"Registrace","foot.other":"Další turnaje","foot.football":"Fotbal","foot.bowling":"Bowling","foot.home":"Všechny turnaje",
+  "foot.copy":"© 2026 Prague's Barrel s.r.o. · Táborská 4, 140 00 Praha 4 · Všechna práva vyhrazena."
+},
+de: {
+  "meta.title":"Eishockey — Internationales Turnier Prague's Barrel",
+  "meta.desc":"Internationales Amateur-Eishockeyturnier in Prag. Hotel, Transfers, Vollpension und unbegrenztes Bier inklusive. Ab 460 € pro Person.",
+  "nav.tournament":"Turnier","nav.programme":"Programm","nav.price":"Preis","nav.faq":"FAQ","nav.contact":"Kontakt","nav.register":"Anmelden",
+  "hero.eyebrow":"Prague's Barrel · Prag, Tschechische Republik",
+  "hero.title1":"Eishockey","hero.title2":"in Prag",
+  "hero.sub":"Internationales Turnier für Amateur- & Hobbyteams",
+  "hero.desc":"Vier unvergessliche Tage Hockey, Freundschaft und Spaß in Prag. Spannende Spiele auf einer großen Eisfläche, unbegrenztes tschechisches Bier und internationale Atmosphäre.",
+  "hero.cta1":"🏒 Team anmelden","hero.cta2":"Mehr erfahren ↓",
+  "stats.dates":"Turniere in 2026","stats.roster":"Spieler pro Kader","stats.days":"Tage in Prag","stats.price":"Preis ab / Person",
+  "banner.label":"📅 Termine 2026","banner.april":"April 2026","banner.may":"Mai 2026","banner.september":"September 2026","banner.november":"November 2026","banner.cta":"Termin wählen →",
+  "why.label":"Warum Prague's Barrel","why.title":"Hockey so,<br>wie man es genießen soll",
+  "why.desc":"Wir kümmern uns um jedes Detail — Unterkunft, Transfers, Verpflegung, Unterhaltung — damit sich Ihr Team auf Hockey, Bier und Erinnerungen konzentriert.",
+  "why.1.title":"Für Amateure & Hobbyspieler","why.1.desc":"Freundschaftliches Turnier für Hobby- und Amateurteams. Ausgeglichene Gruppen, damit jedes Spiel Spaß macht.",
+  "why.2.title":"Große Eisfläche","why.2.desc":"Richtige Eishalle in Prag, echte Schiedsrichter, volles Spielerlebnis für Ihr Team.",
+  "why.3.title":"Prag zu Ihren Füßen","why.3.desc":"Tagsüber spielen, abends die schönste Stadt Europas erkunden. Von überall leicht erreichbar.",
+  "why.4.title":"Unbegrenztes Fassbier","why.4.desc":"Kostenloses tschechisches Bier beim Begrüßungsabend, in der Halle, auf der Bootsfahrt und bei der Abschlussfeier.",
+  "why.5.title":"30 Jahre Erfahrung","why.5.desc":"Dieselben Veranstalter wie bei unserem legendären Fußballturnier — Teams aus 40 Ländern vertrauen uns.",
+  "fact.roster":"Empfohlener Kader","fact.min":"Mindestspieler","fact.days":"Tage Hockey & Spaß","fact.dates":"Termine in 2026",
+  "prog.label":"Zeitplan","prog.title":"Vier Tage in Prag",
+  "prog.desc":"Jeder Moment ist geplant — nichts ist Pflicht. Sie entscheiden, wie viel Sie spielen, erkunden oder feiern.",
+  "prog.d1.label":"DO","prog.d1.name":"Anreisetag",
+  "prog.d1.e1":"Abholung vom Flughafen & Hotel-Check-in","prog.d1.e2":"Begrüßungsabendessen in einem traditionellen tschechischen Restaurant","prog.d1.e3":"🍺 Freier Abend — erkunden Sie Prag!",
+  "prog.d2.label":"FR","prog.d2.name":"1. Spieltag",
+  "prog.d2.e1":"Frühstück im Hotel","prog.d2.e2":"🏒 Gruppenspiele in der Eishalle","prog.d2.e3":"Mittagessen an der Halle","prog.d2.e4":"🛥️ Abendessen auf einer Moldau-Bootsfahrt",
+  "prog.d3.label":"SA","prog.d3.name":"2. Spieltag",
+  "prog.d3.e1":"🏒 Play-offs & Finale","prog.d3.e2":"Freier Nachmittag","prog.d3.e3":"🏅 Abschlussfeier, Preise & Party",
+  "prog.d4.label":"SO","prog.d4.name":"Abreise",
+  "prog.d4.e1":"Letztes Frühstück im Hotel","prog.d4.e2":"Check-out & Rücktransfer","prog.d4.e3":"🌆 Zusätzliche Nächte auf Wunsch",
+  "inc.label":"Im Paket enthalten","inc.title":"Alles. Wirklich alles.",
+  "inc.desc":"Ein Preis deckt das gesamte Erlebnis ab — Sie müssen nur sich (und Ihre Ausrüstung) nach Prag bringen.",
+  "inc.1.title":"Unbegrenztes Fassbier","inc.1.desc":"Kostenloses tschechisches Bier bei allen offiziellen Veranstaltungen — Begrüßungsabend, Eishalle, Bootsfahrt, Abschlussparty.",
+  "inc.2.title":"3 Nächte im Hotel","inc.2.desc":"3–5★-Hotels im Zentrum Prags oder in der Nähe. Die Kategorie wählen Sie selbst.",
+  "inc.3.title":"Vollpension","inc.3.desc":"Frühstück im Hotel, Mittagessen an der Halle, gemeinsame Abendessen im Restaurant und auf dem Boot.",
+  "inc.4.title":"Alle Transfers","inc.4.desc":"Flughafen ↔ Hotel und Hotel ↔ Eishalle Shuttles für die ganze Gruppe.",
+  "inc.5.title":"Startgeld","inc.5.desc":"Eiszeit, Schiedsrichter und Organisation während des gesamten Turniers.",
+  "inc.6.title":"Persönliche Betreuerin","inc.6.desc":"Eine eigene Hostess für Gruppen ab 10 Personen — Ihre „Bierfee“ für den ganzen Aufenthalt.",
+  "inc.7.title":"Abendunterhaltung","inc.7.desc":"Moldau-Bootsfahrt, Abschlussfeier mit Musik und After-Party.",
+  "inc.8.title":"Ein Preis für jedes Team","inc.8.desc":"Auch der letzte Platz bekommt einen Pokal — plus ein Souvenir für jeden Teilnehmer.",
+  "price.label":"Preise","price.title":"Ein Preis, das volle Erlebnis",
+  "price.desc":"Der Preis pro Person hängt nur vom gewählten Hotel ab (3–5★, Einzel-/Doppel-/Dreibettzimmer). Alles andere ist inklusive.",
+  "price.deposit":"Paketpreis pro Person · 3 Nächte · Vollpension · alle Events · Fassbier<br><strong style=\"color:var(--gold)\">800 € Anzahlung</strong> bestätigt die Anmeldung Ihres Teams (dient während des Turniers als Kaution und wird danach zurückerstattet).",
+  "price.popular":"Am beliebtesten",
+  "price.t1.name":"Budget-Hotels","price.t1.type":"Zentrum & Umgebung · 3 Sterne",
+  "price.t1.note":"Der günstigste Einstieg — komfortable, gut gelegene Hotels nahe den Shuttle-Haltepunkten. Pakete ab 460 € pro Person.",
+  "price.t2.name":"4-Sterne-Hotels","price.t2.type":"Zentrum · Gehobener Komfort",
+  "price.t2.note":"Gehobener Komfort mitten im Herzen Prags — die Wahl der meisten Teams. Fragen Sie Ihre Koordinatorin nach der aktuellen Preisliste.",
+  "price.t3.name":"Premium-Hotels","price.t3.type":"Zentrum · Luxus-Erlebnis",
+  "price.t3.note":"Premium-Häuser im Zentrum Prags für alle, die das volle Luxuserlebnis wollen — bis 820 € pro Person.",
+  "price.extras.title":"Gut zu wissen",
+  "price.x1":"🏒 Empfohlener Kader: <strong>15–20 Spieler</strong> (mindestens 12)",
+  "price.x2":"💶 Anzahlung zur Bestätigung der Anmeldung — <strong>800 €</strong>",
+  "price.x3":"🌆 Zusätzliche Nächte — <strong>auf Anfrage</strong>",
+  "price.x4":"⚠️ Krankenversicherung ist <strong>nicht</strong> enthalten",
+  "faq.title":"Alles, was Sie wissen müssen","faq.desc":"Antwort nicht gefunden? Schreiben Sie uns — Ihre Koordinatorin antwortet innerhalb von 24 Stunden.",
+  "faq.1.q":"Gibt es wirklich überall Freibier?",
+  "faq.1.a":"Ja! Bei allen offiziellen Veranstaltungen — Fassbier beim Begrüßungsabend, kostenloses Bier in der Halle, auf der Bootsfahrt und bei der Abschlussfeier. Wir zapfen verschiedene tschechische Biersorten, damit Sie mehrere Marken probieren können.",
+  "faq.2.q":"Wie viele Spieler sollten wir mitbringen?",
+  "faq.2.a":"Wir empfehlen einen Kader von 15–20 Spielern; die Mindestgröße ist 12. Torhüter sind entscheidend — falls Sie Probleme haben, das Tor zu besetzen, sprechen Sie mit Ihrer Koordinatorin.",
+  "faq.3.q":"Welches Niveau haben die Teams?",
+  "faq.3.a":"Es ist ein Turnier für Amateur- und Hobbyteams. Wir bemühen uns, die Gruppen auszugleichen, damit jedes Team spannende, unterhaltsame Spiele bekommt — keine Halbprofis auf Pokaljagd.",
+  "faq.4.q":"Können wir früher anreisen oder länger bleiben?",
+  "faq.4.a":"Natürlich. Bitten Sie Ihre Koordinatorin um eine Verlängerung. Der Preis jeder zusätzlichen Nacht umfasst Unterkunft, Frühstück, Betreuung und die Organisation optionaler Events zum Selbstkostenpreis.",
+  "faq.5.q":"Wie bestätigen wir unsere Anmeldung?",
+  "faq.5.a":"Nach der Anmeldung sichern Sie den Platz Ihres Teams mit einer Anzahlung von 800 €. Sie dient während des Turniers als Kaution und wird direkt danach auf Ihr Konto zurücküberwiesen.",
+  "faq.6.q":"Können wir eine eigene Unterkunft nutzen?",
+  "faq.6.a":"Ja — in dem Fall zahlen Sie einen niedrigeren Preis, der nur Verpflegung, Transport und Startgeld umfasst. Achten Sie darauf, dass Ihre Unterkunft in der Nähe unserer Haltepunkte liegt.",
+  "cta.title":"Bereit, Ihr Team nach <span>Prag</span> zu bringen?","cta.desc":"Melden Sie sich jetzt an oder schreiben Sie uns — wir antworten innerhalb von 24 Stunden.",
+  "cta.btn1":"🏒 Jetzt anmelden","cta.btn2":"✉ E-Mail an uns",
+  "foot.brand":"Internationales Eishockeyturnier für Amateurteams in Prag. Wir kümmern uns um alles — Sie spielen, trinken Bier und genießen Prag.",
+  "foot.tournament":"Turnier","foot.about":"Über das Turnier","foot.results":"Ergebnisarchiv","foot.rink":"Eishalle",
+  "foot.registration":"Anmeldung","foot.other":"Weitere Turniere","foot.football":"Fußball","foot.bowling":"Bowling","foot.home":"Alle Turniere",
+  "foot.copy":"© 2026 Prague's Barrel s.r.o. · Táborská 4, 140 00 Prag 4 · Alle Rechte vorbehalten."
+},
+fr: {
+  "meta.title":"Hockey sur glace — Tournoi international Prague's Barrel",
+  "meta.desc":"Tournoi international de hockey sur glace amateur à Prague. Hôtel, transferts, pension complète et bière à volonté inclus. Dès 460 € par personne.",
+  "nav.tournament":"Tournoi","nav.programme":"Programme","nav.price":"Prix","nav.faq":"FAQ","nav.contact":"Contact","nav.register":"S'inscrire",
+  "hero.eyebrow":"Prague's Barrel · Prague, République tchèque",
+  "hero.title1":"Hockey","hero.title2":"à Prague",
+  "hero.sub":"Tournoi international pour équipes amateurs & loisirs",
+  "hero.desc":"Quatre jours inoubliables de hockey, d'amitié et de fun à Prague. Des matchs palpitants sur une vraie patinoire, de la bière tchèque à volonté et une ambiance internationale.",
+  "hero.cta1":"🏒 Inscrire votre équipe","hero.cta2":"En savoir plus ↓",
+  "stats.dates":"Tournois en 2026","stats.roster":"Joueurs par effectif","stats.days":"Jours à Prague","stats.price":"Prix dès / personne",
+  "banner.label":"📅 Dates 2026","banner.april":"avril 2026","banner.may":"mai 2026","banner.september":"septembre 2026","banner.november":"novembre 2026","banner.cta":"Choisissez votre date →",
+  "why.label":"Pourquoi Prague's Barrel","why.title":"Le hockey comme<br>il doit être vécu",
+  "why.desc":"Nous nous occupons de chaque détail — hébergement, transferts, repas, animations — pour que votre équipe se concentre sur le hockey, la bière et les souvenirs.",
+  "why.1.title":"Pour amateurs & loisirs","why.1.desc":"Tournoi convivial pour équipes loisirs et amateurs. Des groupes équilibrés pour que chaque match soit un plaisir.",
+  "why.2.title":"Vraie patinoire","why.2.desc":"Une véritable patinoire couverte à Prague, de vrais arbitres, une expérience de match complète pour votre équipe.",
+  "why.3.title":"Prague à vos pieds","why.3.desc":"Jouez le jour, explorez la plus belle ville d'Europe la nuit. Facile d'accès d'où que vous veniez.",
+  "why.4.title":"Bière pression à volonté","why.4.desc":"Bière tchèque gratuite au dîner de bienvenue, à la patinoire, sur le bateau et à la cérémonie finale.",
+  "why.5.title":"30 ans d'expérience","why.5.desc":"Les mêmes organisateurs que notre légendaire tournoi de football — la confiance d'équipes de 40 pays.",
+  "fact.roster":"Effectif recommandé","fact.min":"Joueurs minimum","fact.days":"Jours de hockey & fun","fact.dates":"Dates en 2026",
+  "prog.label":"Programme","prog.title":"Quatre jours à Prague",
+  "prog.desc":"Chaque moment est planifié — rien n'est obligatoire. C'est vous qui décidez combien vous jouez, explorez ou faites la fête.",
+  "prog.d1.label":"JEU","prog.d1.name":"Jour d'arrivée",
+  "prog.d1.e1":"Prise en charge à l'aéroport & check-in à l'hôtel","prog.d1.e2":"Dîner de bienvenue dans un restaurant tchèque traditionnel","prog.d1.e3":"🍺 Soirée libre — explorez Prague !",
+  "prog.d2.label":"VEN","prog.d2.name":"1er jour de matchs",
+  "prog.d2.e1":"Petit-déjeuner à l'hôtel","prog.d2.e2":"🏒 Matchs de groupes à la patinoire","prog.d2.e3":"Déjeuner à la patinoire","prog.d2.e4":"🛥️ Dîner-croisière sur la Vltava",
+  "prog.d3.label":"SAM","prog.d3.name":"2e jour de matchs",
+  "prog.d3.e1":"🏒 Play-offs & finales","prog.d3.e2":"Après-midi libre","prog.d3.e3":"🏅 Cérémonie finale, trophées & fête",
+  "prog.d4.label":"DIM","prog.d4.name":"Départ",
+  "prog.d4.e1":"Dernier petit-déjeuner à l'hôtel","prog.d4.e2":"Check-out & transfert retour","prog.d4.e3":"🌆 Nuits supplémentaires possibles",
+  "inc.label":"Le forfait comprend","inc.title":"Tout. Vraiment tout.",
+  "inc.desc":"Un seul prix couvre toute l'expérience — il ne vous reste qu'à venir (avec votre équipement) jusqu'à Prague.",
+  "inc.1.title":"Bière pression à volonté","inc.1.desc":"Bière tchèque gratuite à tous les événements officiels — dîner de bienvenue, patinoire, croisière, fête finale.",
+  "inc.2.title":"3 nuits à l'hôtel","inc.2.desc":"Hôtels 3–5★ au centre de Prague ou à proximité. Vous choisissez votre gamme.",
+  "inc.3.title":"Pension complète","inc.3.desc":"Petit-déjeuner à l'hôtel, déjeuner à la patinoire, dîners communs au restaurant et sur le bateau.",
+  "inc.4.title":"Tous les transferts","inc.4.desc":"Navettes aéroport ↔ hôtel et hôtel ↔ patinoire pour tout le groupe.",
+  "inc.5.title":"Inscription au tournoi","inc.5.desc":"Temps de glace, arbitres et organisation pendant tout le tournoi.",
+  "inc.6.title":"Guide personnelle","inc.6.desc":"Une hôtesse dédiée pour les groupes de 10+ — votre « fée de la bière » pendant tout le séjour.",
+  "inc.7.title":"Animations en soirée","inc.7.desc":"Croisière sur la Vltava, cérémonie finale en musique et after-party.",
+  "inc.8.title":"Un trophée pour chaque équipe","inc.8.desc":"Même la dernière place reçoit un trophée — plus un souvenir pour chaque participant.",
+  "price.label":"Tarifs","price.title":"Un prix, l'expérience complète",
+  "price.desc":"Le prix par personne ne dépend que de l'hôtel choisi (3–5★, chambres simples/doubles/triples). Tout le reste est inclus.",
+  "price.deposit":"Prix du forfait par personne · 3 nuits · pension complète · tous les événements · bière pression<br><strong style=\"color:var(--gold)\">Acompte de 800 €</strong> pour confirmer l'inscription de votre équipe (conservé comme caution et remboursé après le tournoi).",
+  "price.popular":"Le plus populaire",
+  "price.t1.name":"Hôtels économiques","price.t1.type":"Centre-ville & alentours · 3 étoiles",
+  "price.t1.note":"L'option la plus abordable — hôtels confortables et bien situés, proches des arrêts de navette. Forfaits dès 460 € par personne.",
+  "price.t2.name":"Hôtels 4 étoiles","price.t2.type":"Centre-ville · Confort supérieur",
+  "price.t2.note":"Confort supérieur en plein cœur de Prague — le choix de la plupart des équipes. Demandez la grille tarifaire actuelle à votre coordinatrice.",
+  "price.t3.name":"Hôtels premium","price.t3.type":"Centre-ville · Expérience de luxe",
+  "price.t3.note":"Des établissements haut de gamme au centre de Prague pour l'expérience luxe complète — jusqu'à 820 € par personne.",
+  "price.extras.title":"Bon à savoir",
+  "price.x1":"🏒 Effectif recommandé : <strong>15–20 joueurs</strong> (minimum 12)",
+  "price.x2":"💶 Acompte pour confirmer l'inscription — <strong>800 €</strong>",
+  "price.x3":"🌆 Nuits supplémentaires — <strong>sur demande</strong>",
+  "price.x4":"⚠️ L'assurance santé n'est <strong>pas</strong> incluse",
+  "faq.title":"Tout ce qu'il faut savoir","faq.desc":"Vous ne trouvez pas votre réponse ? Écrivez-nous — votre coordinatrice répond sous 24 heures.",
+  "faq.1.q":"Y a-t-il vraiment de la bière gratuite partout ?",
+  "faq.1.a":"Oui ! À tous les événements officiels — bière pression au dîner de bienvenue, bière gratuite à la patinoire, sur le bateau et à la cérémonie finale. Nous servons différentes bières tchèques pour vous faire goûter plusieurs marques.",
+  "faq.2.q":"Combien de joueurs faut-il amener ?",
+  "faq.2.a":"Nous recommandons un effectif de 15–20 joueurs ; la taille minimale est de 12. Les gardiens sont essentiels — si vous avez du mal à garnir la cage, parlez-en à votre coordinatrice.",
+  "faq.3.q":"Quel est le niveau des équipes ?",
+  "faq.3.a":"C'est un tournoi pour équipes amateurs et loisirs. Nous faisons de notre mieux pour équilibrer les groupes afin que chaque équipe joue des matchs disputés et agréables — pas d'équipes semi-pro chasseuses de trophées.",
+  "faq.4.q":"Peut-on arriver plus tôt ou rester plus longtemps ?",
+  "faq.4.a":"Absolument. Demandez à votre coordinatrice de prolonger votre séjour. Le prix de chaque nuit supplémentaire comprend l'hébergement, le petit-déjeuner, l'assistance et l'organisation d'activités optionnelles à prix coûtant.",
+  "faq.5.q":"Comment confirmer notre inscription ?",
+  "faq.5.a":"Après l'inscription, vous confirmez la place de votre équipe avec un acompte de 800 €. Il est conservé comme caution pendant le tournoi et restitué sur votre compte juste après la fin.",
+  "faq.6.q":"Peut-on utiliser notre propre hébergement ?",
+  "faq.6.a":"Oui — dans ce cas vous payez un prix réduit couvrant uniquement les repas, le transport et l'inscription au tournoi. Assurez-vous que votre hébergement est proche de nos arrêts de navette.",
+  "cta.title":"Prêts à emmener votre équipe à <span>Prague ?</span>","cta.desc":"Inscrivez-vous maintenant ou écrivez-nous — nous répondons sous 24 heures.",
+  "cta.btn1":"🏒 S'inscrire","cta.btn2":"✉ Écrivez-nous",
+  "foot.brand":"Tournoi international de hockey sur glace pour équipes amateurs à Prague. On s'occupe de la magie — vous jouez, buvez de la bière et profitez de Prague.",
+  "foot.tournament":"Tournoi","foot.about":"À propos","foot.results":"Archives des résultats","foot.rink":"Patinoire",
+  "foot.registration":"Inscription","foot.other":"Autres tournois","foot.football":"Football","foot.bowling":"Bowling","foot.home":"Tous les tournois",
+  "foot.copy":"© 2026 Prague's Barrel s.r.o. · Táborská 4, 140 00 Prague 4 · Tous droits réservés."
+},
+it: {
+  "meta.title":"Hockey su ghiaccio — Torneo internazionale Prague's Barrel",
+  "meta.desc":"Torneo internazionale amatoriale di hockey su ghiaccio a Praga. Hotel, transfer, pensione completa e birra illimitata inclusi. Da 460 € a persona.",
+  "nav.tournament":"Torneo","nav.programme":"Programma","nav.price":"Prezzo","nav.faq":"FAQ","nav.contact":"Contatti","nav.register":"Iscriviti",
+  "hero.eyebrow":"Prague's Barrel · Praga, Repubblica Ceca",
+  "hero.title1":"Hockey","hero.title2":"a Praga",
+  "hero.sub":"Torneo internazionale per squadre amatoriali",
+  "hero.desc":"Quattro giorni indimenticabili di hockey, amicizia e divertimento a Praga. Partite emozionanti su una pista regolamentare, birra ceca illimitata e atmosfera internazionale.",
+  "hero.cta1":"🏒 Iscrivi la tua squadra","hero.cta2":"Scopri di più ↓",
+  "stats.dates":"Tornei nel 2026","stats.roster":"Giocatori per rosa","stats.days":"Giorni a Praga","stats.price":"Prezzo da / persona",
+  "banner.label":"📅 Date 2026","banner.april":"aprile 2026","banner.may":"maggio 2026","banner.september":"settembre 2026","banner.november":"novembre 2026","banner.cta":"Scegli la tua data →",
+  "why.label":"Perché Prague's Barrel","why.title":"L'hockey come<br>va goduto davvero",
+  "why.desc":"Ci occupiamo di ogni dettaglio — alloggio, transfer, pasti, intrattenimento — così la vostra squadra pensa solo a hockey, birra e ricordi.",
+  "why.1.title":"Per amatori e hobbisti","why.1.desc":"Torneo amichevole per squadre amatoriali. Gironi equilibrati perché ogni partita sia un piacere.",
+  "why.2.title":"Pista regolamentare","why.2.desc":"Una vera arena coperta a Praga, arbitri veri, esperienza di partita completa per la vostra squadra.",
+  "why.3.title":"Praga ai vostri piedi","why.3.desc":"Giocate di giorno, esplorate la città più bella d'Europa di sera. Facile da raggiungere da ovunque.",
+  "why.4.title":"Birra alla spina illimitata","why.4.desc":"Birra ceca gratuita alla cena di benvenuto, all'arena, sul battello e alla cerimonia finale.",
+  "why.5.title":"30 anni di esperienza","why.5.desc":"Gli stessi organizzatori del nostro leggendario torneo di calcio — la fiducia di squadre da 40 paesi.",
+  "fact.roster":"Rosa consigliata","fact.min":"Giocatori minimi","fact.days":"Giorni di hockey","fact.dates":"Date nel 2026",
+  "prog.label":"Programma","prog.title":"Quattro giorni a Praga",
+  "prog.desc":"Ogni momento è pianificato — niente è obbligatorio. Decidete voi quanto giocare, esplorare o festeggiare.",
+  "prog.d1.label":"GIO","prog.d1.name":"Giorno di arrivo",
+  "prog.d1.e1":"Prelievo in aeroporto & check-in in hotel","prog.d1.e2":"Cena di benvenuto in un ristorante ceco tradizionale","prog.d1.e3":"🍺 Serata libera — esplorate Praga!",
+  "prog.d2.label":"VEN","prog.d2.name":"1º giorno di gare",
+  "prog.d2.e1":"Colazione in hotel","prog.d2.e2":"🏒 Partite dei gironi all'arena","prog.d2.e3":"Pranzo all'arena","prog.d2.e4":"🛥️ Cena in crociera sulla Moldava",
+  "prog.d3.label":"SAB","prog.d3.name":"2º giorno di gare",
+  "prog.d3.e1":"🏒 Play-off e finali","prog.d3.e2":"Pomeriggio libero","prog.d3.e3":"🏅 Cerimonia finale, premi e festa",
+  "prog.d4.label":"DOM","prog.d4.name":"Partenza",
+  "prog.d4.e1":"Ultima colazione in hotel","prog.d4.e2":"Check-out e transfer di ritorno","prog.d4.e3":"🌆 Notti extra disponibili su richiesta",
+  "inc.label":"Il pacchetto include","inc.title":"Tutto. Davvero tutto.",
+  "inc.desc":"Un solo prezzo copre l'intera esperienza — dovete solo arrivare (con l'attrezzatura) a Praga.",
+  "inc.1.title":"Birra alla spina illimitata","inc.1.desc":"Birra ceca gratuita a tutti gli eventi ufficiali — cena di benvenuto, arena, crociera, festa finale.",
+  "inc.2.title":"3 notti in hotel","inc.2.desc":"Hotel 3–5★ nel centro di Praga o nelle vicinanze. La categoria la scegliete voi.",
+  "inc.3.title":"Pensione completa","inc.3.desc":"Colazione in hotel, pranzo all'arena, cene comuni al ristorante e sul battello.",
+  "inc.4.title":"Tutti i transfer","inc.4.desc":"Navette aeroporto ↔ hotel e hotel ↔ arena per tutto il gruppo.",
+  "inc.5.title":"Iscrizione al torneo","inc.5.desc":"Tempo sul ghiaccio, arbitri e organizzazione per tutto il torneo.",
+  "inc.6.title":"Guida personale","inc.6.desc":"Una hostess dedicata per gruppi da 10+ — la vostra \"fata della birra\" per tutto il soggiorno.",
+  "inc.7.title":"Intrattenimento serale","inc.7.desc":"Crociera sulla Moldava, cerimonia finale con musica e after-party.",
+  "inc.8.title":"Un premio per ogni squadra","inc.8.desc":"Anche l'ultima classificata riceve un trofeo — più un souvenir per ogni partecipante.",
+  "price.label":"Prezzi","price.title":"Un prezzo, l'esperienza completa",
+  "price.desc":"Il prezzo a persona dipende solo dall'hotel scelto (3–5★, camere singole/doppie/triple). Tutto il resto è incluso.",
+  "price.deposit":"Prezzo del pacchetto a persona · 3 notti · pensione completa · tutti gli eventi · birra alla spina<br><strong style=\"color:var(--gold)\">Acconto di 800 €</strong> conferma l'iscrizione della squadra (trattenuto come cauzione e rimborsato dopo il torneo).",
+  "price.popular":"Il più richiesto",
+  "price.t1.name":"Hotel economici","price.t1.type":"Centro e dintorni · 3 stelle",
+  "price.t1.note":"L'opzione più conveniente — hotel comodi e ben posizionati, vicini alle fermate delle navette. Pacchetti da 460 € a persona.",
+  "price.t2.name":"Hotel 4 stelle","price.t2.type":"Centro · Comfort superiore",
+  "price.t2.note":"Comfort superiore nel cuore di Praga — la scelta della maggior parte delle squadre. Chiedete il listino aggiornato alla vostra coordinatrice.",
+  "price.t3.name":"Hotel premium","price.t3.type":"Centro · Esperienza di lusso",
+  "price.t3.note":"Strutture premium nel centro di Praga per chi vuole l'esperienza di lusso completa — fino a 820 € a persona.",
+  "price.extras.title":"Da sapere",
+  "price.x1":"🏒 Rosa consigliata: <strong>15–20 giocatori</strong> (minimo 12)",
+  "price.x2":"💶 Acconto per confermare l'iscrizione — <strong>800 €</strong>",
+  "price.x3":"🌆 Notti extra — <strong>su richiesta</strong>",
+  "price.x4":"⚠️ L'assicurazione sanitaria <strong>non</strong> è inclusa",
+  "faq.title":"Tutto quello che dovete sapere","faq.desc":"Non trovate la risposta? Scriveteci — la vostra coordinatrice risponde entro 24 ore.",
+  "faq.1.q":"C'è davvero birra gratis ovunque?",
+  "faq.1.a":"Sì! A tutti gli eventi ufficiali — birra alla spina alla cena di benvenuto, birra gratuita all'arena, sul battello e alla cerimonia finale. Serviamo diversi tipi di birra ceca, così potete assaggiare varie marche.",
+  "faq.2.q":"Quanti giocatori dobbiamo portare?",
+  "faq.2.a":"Consigliamo una rosa di 15–20 giocatori; la dimensione minima è 12. I portieri sono fondamentali — se avete difficoltà a coprire la porta, parlatene con la vostra coordinatrice.",
+  "faq.3.q":"Qual è il livello delle squadre?",
+  "faq.3.a":"È un torneo per squadre amatoriali. Facciamo del nostro meglio per bilanciare i gironi, così ogni squadra gioca partite combattute e divertenti — niente squadre semi-pro a caccia di trofei.",
+  "faq.4.q":"Possiamo arrivare prima o restare più a lungo?",
+  "faq.4.a":"Certamente. Chiedete alla vostra coordinatrice di prolungare il soggiorno. Il prezzo di ogni notte extra include alloggio, colazione, assistenza dello staff e organizzazione di attività opzionali a prezzo di costo.",
+  "faq.5.q":"Come confermiamo l'iscrizione?",
+  "faq.5.a":"Dopo la registrazione, confermate il posto della squadra con un acconto di 800 €. Viene trattenuto come cauzione durante il torneo e restituito sul vostro conto subito dopo la fine.",
+  "faq.6.q":"Possiamo usare un alloggio nostro?",
+  "faq.6.a":"Sì — in tal caso pagate un prezzo ridotto che copre solo pasti, trasporti e iscrizione al torneo. Assicuratevi che il vostro alloggio sia vicino alle nostre fermate delle navette.",
+  "cta.title":"Pronti a portare la vostra squadra a <span>Praga?</span>","cta.desc":"Iscrivetevi ora o scriveteci — rispondiamo entro 24 ore.",
+  "cta.btn1":"🏒 Iscriviti ora","cta.btn2":"✉ Scrivici",
+  "foot.brand":"Torneo internazionale di hockey su ghiaccio per squadre amatoriali a Praga. Alla magia pensiamo noi — voi giocate, bevete birra e vi godete Praga.",
+  "foot.tournament":"Torneo","foot.about":"Il torneo","foot.results":"Archivio risultati","foot.rink":"Arena del ghiaccio",
+  "foot.registration":"Iscrizione","foot.other":"Altri tornei","foot.football":"Calcio","foot.bowling":"Bowling","foot.home":"Tutti i tornei",
+  "foot.copy":"© 2026 Prague's Barrel s.r.o. · Táborská 4, 140 00 Praga 4 · Tutti i diritti riservati."
+}
+};
+</script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
